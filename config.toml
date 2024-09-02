@@ -23,6 +23,7 @@ home = [ "HTML", "RSS", "JSON"]
 title = "Deploy 3 Tier web application architecture on AWS"
 weight = 1
 languageName = "English"
+baseURL = "https://lth216.github.io/AWS-FCJ-Workshop1/"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -34,6 +35,7 @@ weight = 20
 title = "Triển khai ứng dụng web đa tầng bằng dịch vụ của AWS"
 weight = 2
 languageName = "Tiếng Việt"
+baseURL = "https://lth216.github.io/AWS-FCJ-Workshop1/vi/"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
