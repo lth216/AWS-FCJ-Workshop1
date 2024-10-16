@@ -7,16 +7,18 @@ chapter : false
 # Deploy 3 Tier web application architecture on AWS
 
 ### Overall
-In this workshop, we will try to deploy a 3 Tier containerized application (frontend, backend and database) using AWS Cloud services, ensuring the scalability and security of the web application.
+In this workshop, we will try to deploy a 3 Tier containerized application (frontend, backend and database) using AWS Cloud services, enabling the scalability and security for the web application.
 
 Here is the overall architecture of this workshop:
 
-![Architecture](/images/main_arch.png?width=90pc)
+![Architecture](/images/additional/main_arch.png?width=40pc)
 
 ### Content
 1. [Introduction](1-Introduction/)
-2. [Setup VPC](2-Setupvpc/)
-3. [Create Database server](3-CreateRDS/)
-4. [Deploy application](4-DeployApp/)
-5. [Test scalability](5-TestASG/)
-6. [Cleanup resources](6-Cleanup/)
+2. [Preparation](2-Preparation/)
+3. [Deploy Database server](3-DeployDatabase/)
+4. [Deploy Backend](4-DeployBE/)
+5. [Deploy Frontend](5-DeployFE/)
+6. [Mitigate latency with CloudFront Distribution](6-Connectivity/)
+7. [Scalability with Auto-Scaling group](7-Scalability/)
+8. [Cleanup](8-Cleanup/)

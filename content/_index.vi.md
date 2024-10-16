@@ -11,12 +11,14 @@ chapter : false
 
 Đây là tổng quan về các dịch vụ AWS mà ta sẽ cấu hình và sử dụng:
 
-![Architecture](/images/main_arch.png?width=90pc)
+![Architecture](/images/additional/main_arch.png?width=50pc)
 
-### Nội dung
+### Content
 1. [Giới thiệu](1-Introduction/)
-2. [Cài đặt VPC](2-Setupvpc/)
-3. [Tạo Database Server](3-CreateRDS/)
-4. [Triển khai ứng dụng](4-DeployApp/)
-5. [Kiểm tra tính mở rộng](5-TestASG/)
-6. [Dọn dẹp tài nguyên](6-Cleanup/)
+2. [Chuẩn bị môi trường](2-Preparation/)
+3. [Triển khai Database server](3-DeployDatabase/)
+4. [Triển khai phần Backend](4-DeployBE/)
+5. [Triển khai phần Frontend](5-DeployFE/)
+6. [Tối ưu độ trễ với CloudFront Distribution](6-Connectivity/)
+7. [Khả năng mở rộng với Auto-Scaling group](7-Scalability/)
+8. [Dọn dẹp tài nguyên](8-Cleanup/)
